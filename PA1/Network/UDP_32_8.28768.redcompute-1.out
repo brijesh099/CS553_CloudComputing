@@ -1,0 +1,12 @@
+the name nodes is redcompute-1
+the hst name is redcompute-2
+in client
+the name nodes is redcompute-1
+the hst name is redcompute-1
+redcompute-1
+in server
+slurmstepd: error: *** STEP 28768.0 ON redcompute-1 CANCELLED AT 2018-03-29T18:07:33 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 28768 ON redcompute-1 CANCELLED AT 2018-03-29T18:07:33 DUE TO TIME LIMIT ***
+srun: error: redcompute-2: task 1: Terminated
+srun: error: redcompute-1: task 0: Terminated
