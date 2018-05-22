@@ -1,0 +1,31 @@
+make: Nothing to be done for 'default'.
+1st Argument: data-20GB.in
+2nd Argument: 16
+Input file: /input/data-20GB.in
+NumBlocks value: 32
+Currently available free memory is: 63874104
+Input file Length is: 20000000000
+Block Size for each temp file is: 1996065
+Buffer Reader Created!!
+Starting clock for execution!!
+Empty line. Exit loop
+Empty line. Exit loop
+Empty line + block array is empty. Exit loop.
+Total time taken for creating temp files and sorting: 485 sec
+Read count for creating Temp files: 200000000
+write count for creating Temp files: 200000000
+Total 101 temporary files are created.
+Total Merge Time : 411 sec
+Total Execution Time: 1083 sec
+Read count for Merge operation : 200000100
+write count for Merge operation: 200000000
+Total count for Read Data : 40000010000 Bytes i.e. 40 GB.
+Total count for Write Data: 40000000000 Bytes i.e. 40 GB.
+Output file length: 20000000000
+IO Throughput is: 73 MB/Sec
+Execution completed!!
+Starting Valsort execution:
+Records: 200000000
+Checksum: 5f5cc94518a4203
+Duplicate keys: 0
+SUCCESS - all records are in order
